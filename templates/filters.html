@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Representing Filters</h1>
+
+        <h1>{{name}}</h1>
+        <h1>{{name|lower}}</h1>
+        <h1>{{name|upper}}</h1>
+        <h1>{{name|title}}</h1>
+        <h1>{{name|capfirst}}</h1>
+        <h1>{{name|truncatewords:2}}</h1>
+        <h1>{{name|truncatechars:5}}</h1>
+        <h1>{{name|slice:5}}</h1>
+
+
+        <h2>I have {{count}} dogs{{count|pluralize:'is,are'}}</h2>
+
+        <h3>This {{count}} mango{{count|pluralize:'es'}} {{count|pluralize:'are'}} mine</h3>
+
+        <!-- <h3>{{dt|date:'d-m-F-Y-a'}}</h3> -->
+        <h3>{{dt|time}}</h3>
+        <h3>{{dt|date}}</h3>
+    </center>
+</body>
+</html>
